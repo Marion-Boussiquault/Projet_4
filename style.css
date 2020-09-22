@@ -716,6 +716,9 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    display: flex;
+    text-align: center;
+    
 }
 
 h1 {
@@ -1038,4 +1041,35 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+
+
+.sentence_1
+{
+    text-align: center;
+    font-size: 22px;
+    max-width: 617px;
+    margin: 3rem auto 2rem auto;
+}
+
+.sentence_2
+{
+    text-align: center;
+    max-width: 562px;
+    font-size: 22px;
+    margin: auto;
+    font-style: italic;
+}
+
+.sentence_2_author
+{
+    text-align: center;
+    font-size: 13px;
+}
+
+.col-sm-12
+{
+    text-align: center;
 }
