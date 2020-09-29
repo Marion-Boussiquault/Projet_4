@@ -28,9 +28,17 @@ col-sm-3
 
 .social
 {
-    color: white;
+    color: black;
     font-weight: bold;
 
+}
+
+.social-logo
+{
+    background: linear-gradient(135deg, beige 0%, #070707 100%);
+    color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
 }
 
 a,
@@ -716,7 +724,7 @@ h4 {
 }
 
 .sentence-footer {
-    color: #FFFFFF ;
+    color: black;
     font-weight: bold;
 }
 
