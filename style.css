@@ -313,6 +313,16 @@ a:hover {
     font-weight: bold;
 }
 
+.tc-background-clip
+{
+font-size:28px;
+font-weight: bold;
+background: linear-gradient(135deg, #f12c33ec 0%, #fae673 71%);
+  color: transparent;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+}
+
 .reseaux-sociaux
 {
     padding: 1rem 28rem 3rem 28rem;
