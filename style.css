@@ -152,7 +152,10 @@ a:hover {
 }
 
 
-
+.description-agence
+{
+    color: black;
+}
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
