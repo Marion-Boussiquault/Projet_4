@@ -304,6 +304,15 @@ a:hover {
     font-size: 13px;
 }
 
+.sentence_3
+{
+    font-size: 22px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    color: black;
+    font-weight: bold;
+}
+
 .reseaux-sociaux
 {
     padding: 1rem 28rem 3rem 28rem;
