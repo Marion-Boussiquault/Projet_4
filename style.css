@@ -325,10 +325,7 @@ a:hover {
 {
 font-size:28px;
 font-weight: bold;
-background: linear-gradient(135deg, #f12c33ec 0%, #fae673 71%);
-  color: transparent;
-  background-clip: content-box;
-  -webkit-background-clip: text;
+color: #F3976C;
 }
 
 .reseaux-sociaux
