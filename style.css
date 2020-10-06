@@ -892,6 +892,26 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .sentence_1
+    {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .sentence_3
+    {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .reseaux-sociaux
+    {
+        padding: 0rem;
+        display: flex;
+        margin-top: 3rem;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -904,8 +924,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px ;
-        padding-right: 10px ;
+        padding-left: 0px ;
+        padding-right: 0px ;
     }
     .b-parallax {
         background-attachment: scroll;
