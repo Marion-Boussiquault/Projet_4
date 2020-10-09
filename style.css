@@ -332,6 +332,8 @@ color: #F3976C;
 {
     padding: 1rem 28rem 3rem 28rem;
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .partenaires
@@ -911,6 +913,7 @@ h4 {
         padding: 0rem;
         display: flex;
         margin-top: 3rem;
+        justify-content: space-around;
     }
 
     .page-container {
@@ -1049,6 +1052,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-width: 100%;
+    width: 100%;
 }
 
 @media (max-width: 400px) {
