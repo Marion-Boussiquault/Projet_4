@@ -664,10 +664,6 @@ p {
     font-size: 11px;
 }
 
-.tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
-}
 
 .h1 {
     font-size: 20px;
@@ -704,7 +700,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-    display: flex;
     text-align: center;
     
 }
@@ -743,6 +738,7 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+    margin: 0 15rem;
 }
 
 .bold-link {
@@ -815,9 +811,6 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
     background-size: cover;
 }
 
@@ -841,6 +834,11 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .black-background
+    {
+        margin: 0 6rem;
     }
 }
 
@@ -908,12 +906,21 @@ h4 {
         padding-right: 0rem;
     }
 
+    .black-background
+    {
+        margin: 0rem 2rem;
+    }
     .reseaux-sociaux
     {
         padding: 0rem;
         display: flex;
         margin-top: 3rem;
         justify-content: space-around;
+    }
+
+    .text-center
+    {
+        font-size: 12px;
     }
 
     .page-container {
